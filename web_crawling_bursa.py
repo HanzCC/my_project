@@ -94,4 +94,4 @@ if __name__ == '__main__':
     fname = (f'bursa_{todate}.json')
     with open (fname, 'w', encoding='utf-8') as f:
         json.dump(Date, f)
-        f.write(doc)
+        # f.write(doc)
